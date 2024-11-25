@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext } from 'react';
 import { View, Text, TextInput, Image } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { NameContext } from '../context/NameContext';
-import Button from '../components/Button';
+import Button from '../components/Button/Button';
 import styles from '../styles/Screen1Styles';
 
 const Screen1 = ({ navigation }: any) => {
